@@ -15,6 +15,9 @@ I2C_Array::I2C() {
 //
 void I2C_Array::begin() {
   Wire.begin();
+  while (Wire.available()) {
+    Wire.read();
+  }
 }
 
 //Send an Array to an Slave
