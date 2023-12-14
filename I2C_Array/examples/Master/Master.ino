@@ -3,11 +3,11 @@
 //determan the length of an array
 #define Array_Length(array) ((sizeof(array) / sizeof(array[0])))
 
-//define all arrays for the recieved data
+//define a array for the recieved data
 
 byte request[70];
 
-//define all arrays for the send data
+//define a array for the send data
 
 byte send[70];
 
