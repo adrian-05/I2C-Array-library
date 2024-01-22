@@ -7,7 +7,7 @@
 #include <Wire.h>
 
 
-I2C_Array::I2C() {
+I2C_Array::I2C_Array() {
 }
 
 //Master
