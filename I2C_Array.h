@@ -12,7 +12,7 @@
 class I2C_Array {
   public:
   //constructor
-  I2C();
+  I2C_Array();
 
   //general
   void begin();
