@@ -1,7 +1,0 @@
-i2C         KEYWORD1
-
-begin		    KEYWORD2
-sendArray	    KEYWORD2
-requestArray	KEYWORD2
-recieveData     KEYWORD2
-sendData        KEYWORD2
