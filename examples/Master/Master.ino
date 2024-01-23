@@ -16,7 +16,7 @@ void setup() {
 
   i2c.begin();
   Serial.begin(57600);
-  Serial.println("start");
+  Serial.println("finished setup");
 }
 
 void loop() {
